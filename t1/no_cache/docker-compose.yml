@@ -1,0 +1,13 @@
+version: '3'
+services:
+  search_no_cache:
+    build:
+      context: ./app/search
+      dockerfile: Dockerfile
+    container_name: search_no_cache
+    tty: true
+    stdin_open: true
+    volumes:
+      - './app/search:/app'
+      - './data_gen/cars.json:/app/cars.json'
+    restart: always

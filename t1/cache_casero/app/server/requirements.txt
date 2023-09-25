@@ -1,0 +1,5 @@
+grpcio==1.57.0
+grpcio-tools==1.57.0
+uhashring==2.3
+numpy>=1.21.2
+

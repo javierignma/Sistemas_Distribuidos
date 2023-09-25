@@ -1,0 +1,602 @@
+[
+  {
+    "id": 0,
+    "make": "Honda",
+    "model": "S2000",
+    "year": 2018
+  },
+  {
+    "id": 1,
+    "make": "Nissan",
+    "model": "Titan",
+    "year": 2013
+  },
+  {
+    "id": 2,
+    "make": "Ford",
+    "model": "Taurus",
+    "year": 2006
+  },
+  {
+    "id": 3,
+    "make": "Honda",
+    "model": "Passport",
+    "year": 1999
+  },
+  {
+    "id": 4,
+    "make": "Subaru",
+    "model": "R2",
+    "year": 1994
+  },
+  {
+    "id": 5,
+    "make": "Subaru",
+    "model": "R1",
+    "year": 2014
+  },
+  {
+    "id": 6,
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2007
+  },
+  {
+    "id": 7,
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "year": 2019
+  },
+  {
+    "id": 8,
+    "make": "Ford",
+    "model": "Crown Victoria",
+    "year": 2019
+  },
+  {
+    "id": 9,
+    "make": "Ford",
+    "model": "Ranger",
+    "year": 2011
+  },
+  {
+    "id": 10,
+    "make": "Ford",
+    "model": "Ranger",
+    "year": 1999
+  },
+  {
+    "id": 11,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2000
+  },
+  {
+    "id": 12,
+    "make": "Volkswagen",
+    "model": "Touran",
+    "year": 2020
+  },
+  {
+    "id": 13,
+    "make": "BMW",
+    "model": "X3",
+    "year": 1990
+  },
+  {
+    "id": 14,
+    "make": "Audi",
+    "model": "RS3",
+    "year": 1999
+  },
+  {
+    "id": 15,
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2021
+  },
+  {
+    "id": 16,
+    "make": "Subaru",
+    "model": "Stella",
+    "year": 1999
+  },
+  {
+    "id": 17,
+    "make": "Honda",
+    "model": "Prelude",
+    "year": 1997
+  },
+  {
+    "id": 18,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "year": 1997
+  },
+  {
+    "id": 19,
+    "make": "Mercedes-Benz",
+    "model": "SL",
+    "year": 1996
+  },
+  {
+    "id": 20,
+    "make": "BMW",
+    "model": "X1",
+    "year": 1995
+  },
+  {
+    "id": 21,
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 1998
+  },
+  {
+    "id": 22,
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2020
+  },
+  {
+    "id": 23,
+    "make": "BMW",
+    "model": "7 Series",
+    "year": 2008
+  },
+  {
+    "id": 24,
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 1995
+  },
+  {
+    "id": 25,
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 1996
+  },
+  {
+    "id": 26,
+    "make": "Subaru",
+    "model": "Domingo",
+    "year": 2013
+  },
+  {
+    "id": 27,
+    "make": "Subaru",
+    "model": "BRZ",
+    "year": 2001
+  },
+  {
+    "id": 28,
+    "make": "Toyota",
+    "model": "Avalon",
+    "year": 2003
+  },
+  {
+    "id": 29,
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2013
+  },
+  {
+    "id": 30,
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "year": 2007
+  },
+  {
+    "id": 31,
+    "make": "Honda",
+    "model": "Clarity",
+    "year": 2000
+  },
+  {
+    "id": 32,
+    "make": "Subaru",
+    "model": "WRX",
+    "year": 1998
+  },
+  {
+    "id": 33,
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": 2011
+  },
+  {
+    "id": 34,
+    "make": "Nissan",
+    "model": "Juke",
+    "year": 2004
+  },
+  {
+    "id": 35,
+    "make": "Nissan",
+    "model": "Versa",
+    "year": 2018
+  },
+  {
+    "id": 36,
+    "make": "Subaru",
+    "model": "Levorg",
+    "year": 2021
+  },
+  {
+    "id": 37,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "year": 1999
+  },
+  {
+    "id": 38,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "year": 2006
+  },
+  {
+    "id": 39,
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2003
+  },
+  {
+    "id": 40,
+    "make": "Audi",
+    "model": "TT",
+    "year": 1995
+  },
+  {
+    "id": 41,
+    "make": "Mercedes-Benz",
+    "model": "V-Class",
+    "year": 2009
+  },
+  {
+    "id": 42,
+    "make": "Honda",
+    "model": "Ridgeline",
+    "year": 2009
+  },
+  {
+    "id": 43,
+    "make": "Toyota",
+    "model": "C-HR",
+    "year": 2001
+  },
+  {
+    "id": 44,
+    "make": "Audi",
+    "model": "A8",
+    "year": 2014
+  },
+  {
+    "id": 45,
+    "make": "Subaru",
+    "model": "Sambar",
+    "year": 2012
+  },
+  {
+    "id": 46,
+    "make": "Toyota",
+    "model": "Avalon",
+    "year": 1991
+  },
+  {
+    "id": 47,
+    "make": "Honda",
+    "model": "Prelude",
+    "year": 1999
+  },
+  {
+    "id": 48,
+    "make": "Honda",
+    "model": "Accord",
+    "year": 1993
+  },
+  {
+    "id": 49,
+    "make": "Subaru",
+    "model": "Justy",
+    "year": 1996
+  },
+  {
+    "id": 50,
+    "make": "BMW",
+    "model": "X6",
+    "year": 2019
+  },
+  {
+    "id": 51,
+    "make": "Audi",
+    "model": "RS3",
+    "year": 2018
+  },
+  {
+    "id": 52,
+    "make": "Toyota",
+    "model": "Yaris",
+    "year": 2010
+  },
+  {
+    "id": 53,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2012
+  },
+  {
+    "id": 54,
+    "make": "BMW",
+    "model": "i8",
+    "year": 2005
+  },
+  {
+    "id": 55,
+    "make": "Nissan",
+    "model": "Note",
+    "year": 2007
+  },
+  {
+    "id": 56,
+    "make": "Chevrolet",
+    "model": "Bolt",
+    "year": 2005
+  },
+  {
+    "id": 57,
+    "make": "Subaru",
+    "model": "SVX",
+    "year": 2008
+  },
+  {
+    "id": 58,
+    "make": "Audi",
+    "model": "S6",
+    "year": 2004
+  },
+  {
+    "id": 59,
+    "make": "Audi",
+    "model": "S3",
+    "year": 1998
+  },
+  {
+    "id": 60,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "year": 2004
+  },
+  {
+    "id": 61,
+    "make": "Audi",
+    "model": "Q3",
+    "year": 1991
+  },
+  {
+    "id": 62,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2001
+  },
+  {
+    "id": 63,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2012
+  },
+  {
+    "id": 64,
+    "make": "Volkswagen",
+    "model": "Touareg",
+    "year": 2009
+  },
+  {
+    "id": 65,
+    "make": "Subaru",
+    "model": "Ascent",
+    "year": 2010
+  },
+  {
+    "id": 66,
+    "make": "Nissan",
+    "model": "Juke",
+    "year": 2001
+  },
+  {
+    "id": 67,
+    "make": "Subaru",
+    "model": "Justy",
+    "year": 2000
+  },
+  {
+    "id": 68,
+    "make": "Mercedes-Benz",
+    "model": "Maybach",
+    "year": 2009
+  },
+  {
+    "id": 69,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "year": 2011
+  },
+  {
+    "id": 70,
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2021
+  },
+  {
+    "id": 71,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "year": 2006
+  },
+  {
+    "id": 72,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "year": 2017
+  },
+  {
+    "id": 73,
+    "make": "Ford",
+    "model": "Fusion",
+    "year": 2020
+  },
+  {
+    "id": 74,
+    "make": "Subaru",
+    "model": "R2",
+    "year": 2012
+  },
+  {
+    "id": 75,
+    "make": "Audi",
+    "model": "Q3",
+    "year": 2005
+  },
+  {
+    "id": 76,
+    "make": "Honda",
+    "model": "Odyssey",
+    "year": 2013
+  },
+  {
+    "id": 77,
+    "make": "Audi",
+    "model": "S5",
+    "year": 1997
+  },
+  {
+    "id": 78,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 1998
+  },
+  {
+    "id": 79,
+    "make": "Mercedes-Benz",
+    "model": "Vito",
+    "year": 2010
+  },
+  {
+    "id": 80,
+    "make": "Nissan",
+    "model": "Note",
+    "year": 2018
+  },
+  {
+    "id": 81,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "year": 1995
+  },
+  {
+    "id": 82,
+    "make": "Ford",
+    "model": "Expedition",
+    "year": 1999
+  },
+  {
+    "id": 83,
+    "make": "Nissan",
+    "model": "Titan",
+    "year": 2016
+  },
+  {
+    "id": 84,
+    "make": "BMW",
+    "model": "M2",
+    "year": 2016
+  },
+  {
+    "id": 85,
+    "make": "Volkswagen",
+    "model": "CC",
+    "year": 1993
+  },
+  {
+    "id": 86,
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2019
+  },
+  {
+    "id": 87,
+    "make": "BMW",
+    "model": "X1",
+    "year": 1999
+  },
+  {
+    "id": 88,
+    "make": "Honda",
+    "model": "Element",
+    "year": 2003
+  },
+  {
+    "id": 89,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2020
+  },
+  {
+    "id": 90,
+    "make": "Volkswagen",
+    "model": "Eos",
+    "year": 2015
+  },
+  {
+    "id": 91,
+    "make": "Audi",
+    "model": "S6",
+    "year": 1997
+  },
+  {
+    "id": 92,
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2010
+  },
+  {
+    "id": 93,
+    "make": "Ford",
+    "model": "Fiesta",
+    "year": 2003
+  },
+  {
+    "id": 94,
+    "make": "Mercedes-Benz",
+    "model": "SLS",
+    "year": 1999
+  },
+  {
+    "id": 95,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "year": 2006
+  },
+  {
+    "id": 96,
+    "make": "Chevrolet",
+    "model": "Captiva",
+    "year": 2010
+  },
+  {
+    "id": 97,
+    "make": "Subaru",
+    "model": "Ascent",
+    "year": 2016
+  },
+  {
+    "id": 98,
+    "make": "BMW",
+    "model": "Z4",
+    "year": 2005
+  },
+  {
+    "id": 99,
+    "make": "Ford",
+    "model": "Explorer",
+    "year": 2005
+  }
+]
