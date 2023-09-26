@@ -14,7 +14,7 @@ Para levantar los contenedores:
 1. Ingresar a la carpeta del sistema a levantar.
 2. Ejecutar en la terminal: ``` sudo docker compose up -d ```
 3. Ejecutar en la terminal: 
-``` sudo docker exec -it search ``` (Para caché casero)
-``` sudo docker exec -it search_mc ``` (Para memcached)
-``` sudo docker exec -it search_no_cache ``` (Para no caché)
+``` sudo docker exec -it search bash``` (Para caché casero)
+``` sudo docker exec -it search_mc bash``` (Para memcached)
+``` sudo docker exec -it search_no_cache bash``` (Para no caché)
 4. Una vez dentro del contenedor, ejecutar: ``` python3 search.py ``` 
