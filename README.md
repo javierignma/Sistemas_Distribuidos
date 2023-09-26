@@ -1,2 +1,2 @@
 # sd
-tareas de sistemas distribuidos
+Tareas de Sistemas Distribuidos.
