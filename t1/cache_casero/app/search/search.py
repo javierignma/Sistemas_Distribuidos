@@ -10,6 +10,14 @@ class CacheClient:
     def __init__(self, host="master", port=50051):
         self.channel = grpc.insecure_channel(f"{host}:{port}")
         self.stub = cache_service_pb2_grpc.CacheServiceStub(self.channel)
+        self.reset_cache()
+    
+    def reset_cache(self):
+        keys = list(range(100))
+        #Delete all the keys in cache.
+        for key in keys:
+            key = str(key)
+            self.stub.Remove(cache_service_pb2.Key(key=key))
 
     def get(self, key, simulated=False):
         start_time = time.time()  # Inicio del temporizador
