@@ -1,5 +1,7 @@
 # Tarea 1 de Sistemas Distribuidos
 
+Integrantes: Vicente Castro y Javier Molina.
+
 TODOS LOS SISTEMAS DE CACHÉ ESTÁN BASADOS PARCIAL O COMPLETAMENTE EN LOS ENTREGADOS POR LOS AYUDANTES.
 
 ## Distribución de carpetas:
