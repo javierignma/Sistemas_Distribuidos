@@ -1,5 +1,7 @@
 # Tarea 1 de Sistemas Distribuidos
 
+TODOS LOS SISTEMAS DE CACHÉ ESTÁN BASADOS PARCIAL O COMPLETAMENTE EN LOS ENTREGADOS POR LOS AYUDANTES.
+
 ## Distribución de carpetas:
 Cada carpeta contiene el sistema de caché correspondiente (si es que aplica) y el search.py para poder realizar consultas.
 ### Carpeta cache_casero: 
