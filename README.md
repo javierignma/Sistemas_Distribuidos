@@ -1,2 +1,3 @@
-# sd
-Tareas de Sistemas Distribuidos.
+# Tareas de Sistemas Distribuidos.
+Repositorio con el código relacionado a las tareas de la asignatura de Sistemas Distribuidos.
+* t1: Comparación cache asero y Memcached.
