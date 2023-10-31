@@ -1,5 +1,9 @@
 # Tarea 2 de Sistemas Distribuidos: Apache Kafka.
 
+## Requisitos
+1. `pip3 install kafka-python`
+2. `pip3 install pandas`
+
 ## Guía de uso
 1. Ejecutar `sudo docker compose up -d` en el directorio raíz del proyecto.
 2. Entrar en la carpeta consumers y ejecutar `python3 consumer.py`. Es importante ejecutar el .py dentro de la carpeta consumers.
