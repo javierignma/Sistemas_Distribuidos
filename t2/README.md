@@ -1,4 +1,5 @@
 # Tarea 2 de Sistemas Distribuidos: Apache Kafka.
+Integrantes: Javier Molina y Vicente Castro
 
 ## Requisitos
 1. `pip3 install kafka-python`
