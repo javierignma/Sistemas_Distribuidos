@@ -1,4 +1,5 @@
 from kafka import KafkaConsumer
+from confluent_kafka.admin import AdminClient, NewTopic
 import pandas as pd
 import json
 
@@ -6,6 +7,14 @@ bootstrap_servers = 'localhost:9092'
 accounting_topic = 'accounting'
 distribution_topic = 'distribution'
 registration_topic = 'registration'
+
+admin_client = AdminClient({'bootstrap.servers': bootstrap_servers})
+
+topic_1 = NewTopic(accounting_topic, num_partitions=1, replication_factor=1)
+topic_2 = NewTopic(distribution_topic, num_partitions=1, replication_factor=1)
+topic_3 = NewTopic(registration_topic, num_partitions=2, replication_factor=1)
+
+admin_client.create_topics([topic_1, topic_2, topic_3])
 
 consumer = KafkaConsumer(
     *[accounting_topic, distribution_topic, registration_topic],
