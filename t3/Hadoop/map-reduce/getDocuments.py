@@ -7,11 +7,12 @@ with open('pages.txt') as f:
     for line in f:
         page = line.replace(' ', '_').strip()
         page = Wiki_object.page(page).text
+        page = page.replace("\n", " ")
         if counter < 16:
-            with open('[1-15]/Documento'+str(counter)+'.txt', 'w') as folder:
-                folder.write(page)
+            with open('carpeta1/'+str(counter)+'.txt', 'w') as folder:
+                folder.write(f'{line.strip()}<splittername>"{page}"')
         else:
-            with open('[16-30]/Documento'+str(counter)+'.txt', 'w') as folder:
-                folder.write(page)
+            with open('carpeta2/'+str(counter)+'.txt', 'w') as folder:
+                folder.write(f'{line.strip()}<splittername>"{page}"')
         print(f'Documento {counter}/30')
         counter += 1
