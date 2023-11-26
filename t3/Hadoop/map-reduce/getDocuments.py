@@ -10,9 +10,9 @@ with open('pages.txt') as f:
         page = page.replace("\n", " ")
         if counter < 16:
             with open('carpeta1/'+str(counter)+'.txt', 'w') as folder:
-                folder.write(f'{line.strip()}<splittername>"{page}"')
+                folder.write(f'{line.replace(" ", "_").strip()}<splittername>"{page}"')
         else:
             with open('carpeta2/'+str(counter)+'.txt', 'w') as folder:
-                folder.write(f'{line.strip()}<splittername>"{page}"')
+                folder.write(f'{line.replace(" ", "_").strip()}<splittername>"{page}"')
         print(f'Documento {counter}/30')
         counter += 1

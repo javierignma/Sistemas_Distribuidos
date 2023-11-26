@@ -12,7 +12,7 @@ def inicializar_base_datos():
             palabra, documentos_str = linea.strip().split('\t')
 
             # Convertir la cadena de documentos_str a una lista de tuplas
-            documentos = [tuple(documento.strip('(),').split(',')) for documento in documentos_str.split(') (')]
+            documentos = [list(documento.strip('(),').split(',')) for documento in documentos_str.split(') (')]
 
             # Almacenar en la base de datos
             base_datos[palabra] = documentos

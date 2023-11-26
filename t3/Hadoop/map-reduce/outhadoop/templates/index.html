@@ -80,7 +80,7 @@
         <h2>Resultados para "{{ consulta }}"</h2>
         <ul>
             {% for documento in resultados %}
-                <li>Documento: "{{ documento[0] }}" | Frecuencia: {{ documento[1] }}</li>
+                <li>Documento: <a href="{{ documento[2] }}" target="_blank">{{ documento[0] }}</a> | Frecuencia: {{ documento[1] }}</li>
             {% endfor %}
         </ul>
     {% endif %}
