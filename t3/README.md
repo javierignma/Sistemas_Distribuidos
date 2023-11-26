@@ -19,3 +19,7 @@ hdfs dfs -get /user/hduser/hduser/outhadoop/ /home/hduser/map-reduce
 
 ```
 Los datos se guardarán en la carpeta outhadoop.
+
+Ejecutar en terminal local: `pip3 install flask` para instalar flask y poder ejecutar el buscador.
+Ejecutar app.py dentro de la carpeta outhadoop, esto es utilizando: `python3 app.py`
+Desde algún navegador web ingresar a localhost:5000.
